@@ -7,6 +7,7 @@ https://emowebv0-vsabvp2pdq-et.a.run.app/
 ## flow of creating the "emoweb" website
 1. Creating the Model:
   - Create the desired model and save it in the model.json file.
+  - To get more detailed information about the model creation process, you can refer to the following repository: https://github.com/masajeruk/train_fer2013.
 2. Web Server Configuration:
   - Create the "nginx" folder
   - Inside the "nginx" folder, create or modify the default.conf file to configure the web server as needed.
