@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmoTune.AI</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <div id="prompt">
+      <h1>Bagaimana kabarmu hari ini?</h1>
+    </div>
+    <div id="container">
+      <div id="videoContainer">
+        <video id="video" autoplay></video>
+        <canvas id="canvas"></canvas>
+      </div>
+      <div id="recommendations">
+        <h2>Recommendations</h2>
+        <h3>Music:</h3>
+        <ul id="musicList"></ul>
+        <h3>Movies:</h3>
+        <ul id="moviesList"></ul>
+      </div>
+      <div id="status"></div> 
+    </div>   
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
