@@ -1,5 +1,5 @@
 # emoweb
-Masih dalam tahap pengembangan
+Still under development.
 
 ## Demo 
 https://emowebv0-vsabvp2pdq-et.a.run.app/
