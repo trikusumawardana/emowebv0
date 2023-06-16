@@ -17,6 +17,9 @@ https://emowebv0-vsabvp2pdq-et.a.run.app/
 4. CI/CD Configuration:
   - Create or modify the cloudbuild.yaml file, which is a configuration file for a CI/CD tool (such as Google Cloud Build).
   - The cloudbuild.yaml file should include the necessary steps to build, test, and deploy the "emoweb" website.
+    -- Building the container image using the Docker builder.
+    -- Pushing the container image to Google Container Registry.
+    -- Deploying the container image to Google Cloud Run.
 5. Website Presentation:
   - Create or modify the index.html file to display the main page of the "emoweb" website.
   - Create or modify the script.js file to add application logic or user interactions.
